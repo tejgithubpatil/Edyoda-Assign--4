@@ -1,0 +1,9 @@
+QUESTION 3 : Write a Python program to square the elements of a list using map() function.
+Code:-
+Given_list = [4,5,2,9]
+Squared_number = list(map(lambda Given_list: Given_list**2, Given_list))
+print(f"List after Squarring : {Squared_number}")
+
+
+Output:-
+List after Squarring : [16, 25, 4, 81]
